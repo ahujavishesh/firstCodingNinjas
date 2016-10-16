@@ -35,12 +35,10 @@
         android:src="@android:drawable/ic_input_add" />
 
     xmlns:android="http://schemas.android.com/apk/res/android" />
-    <ListView tools:context="com.vishesh.todo.MainActivity"
-        android:id="@+id/sub_list"
-        android:minHeight="20dp"
-        android:minWidth="100dp"
-
-        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is my first change and second commit"/>
 
 
 </android.support.design.widget.CoordinatorLayout>
